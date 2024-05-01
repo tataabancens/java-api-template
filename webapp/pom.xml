@@ -3,25 +3,25 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>java-api-template</artifactId>
-    <groupId>ar.juarce</groupId>
+    <groupId>ar.edu.itba.tesis</groupId>
+    <artifactId>inhibitor-detector-api</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>webapp</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   <name>webapp</name>
 
   <dependencies>
     <!--    Modules dependencies-->
     <dependency>
-      <groupId>ar.juarce</groupId>
+      <groupId>ar.edu.itba.tesis</groupId>
       <artifactId>interfaces</artifactId>
       <version>${project.parent.version}</version>
     </dependency>
     <dependency>
-      <groupId>ar.juarce</groupId>
+      <groupId>ar.edu.itba.tesis</groupId>
       <artifactId>services</artifactId>
       <version>${project.parent.version}</version>
       <scope>runtime</scope>
@@ -79,7 +79,7 @@
   <!--        <artifactId>spring-boot-maven-plugin</artifactId>-->
   <!--        <version>${spring-boot-starter.version}</version>-->
   <!--        <configuration>-->
-  <!--          <mainClass>ar.juarce.webapp.App</mainClass>-->
+  <!--          <mainClass>ar.edu.itba.tesis.webapp.App</mainClass>-->
   <!--        </configuration>-->
   <!--      </plugin>-->
   <!--    </plugins>-->
